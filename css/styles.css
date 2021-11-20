@@ -1,0 +1,317 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  line-height: 23px;
+  font-size: 15px;
+}
+
+h1 {
+  letter-spacing: -1px;
+  font-size: 65px;
+  color: #000;
+  line-height: 10px;
+}
+
+h2 {
+  font-size: 3rem;
+  color: #fff;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 30px;
+  line-height: 45px;
+  color: #fff;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+h4 {
+  font-size: 15px;
+  line-height: 45px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 20px;
+  line-height: 0;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.details {
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 50px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-top: 85px;
+  color: #fff;
+}
+
+#start_text h2 {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  text-align: center;
+  line-height: 52px;
+}
+
+#top_wrapper {
+  width: 100%;
+  height: 95px;
+  background: #ffffff;
+  z-index: 2000;
+  position: fixed;
+  -webkit-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+#section1 {
+  background: #1C1C1C;
+  position: relative;
+  width: 100%;
+  display: block;
+  overflow: hidden;
+  padding-bottom: 5%;
+}
+
+#section2 {
+  background: #58b792;
+  position: relative;
+  width: 100%;
+  display: block;
+  overflow: hidden;
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
+
+#section3 {
+  background: #32ac97;
+  position: relative;
+  width: 100%;
+  display: block;
+  color: #fff;
+  overflow: hidden;
+  padding-bottom: 80px;
+  padding-top: 100px;
+}
+
+#section4 {
+  background: #325288;
+  position: relative;
+  width: 100%;
+  display: block;
+  height: 690px;
+  overflow: hidden;
+  padding-top: 100px;
+}
+
+#section5 {
+  background: #f1c64e;
+  position: relative;
+  width: 100%;
+  display: block;
+  height: 690px;
+  overflow: hidden;
+  padding-top: 100px;
+}
+
+#start {
+  padding-top: 0;
+}
+
+#start_text {
+  width: 90%;
+  max-width: 980px;
+  margin: auto;
+}
+
+#start_image {
+  width: 900px;
+  margin: auto;
+}
+
+#team {
+  width: 962px;
+  margin: auto;
+  text-align: center;
+}
+
+#team_content {
+  width: 70%;
+  padding-bottom: 40px;
+  margin: auto;
+  text-align: center;
+  font-size: 15px;
+}
+
+#about_us {
+  width: 670px;
+  margin: auto;
+  text-align: center;
+  font-size: 16px;
+  color: #fff;
+}
+
+.pic {
+  margin-top: 20px;
+  border-radius: 100%;
+}
+
+#about_us a {
+  font-size: 12px;
+}
+
+#social {
+  margin-top: 60px;
+}
+
+#services {
+  width: 900px;
+  margin: auto;
+  font-size: 15px;
+  text-align: center;
+  color: #fff;
+}
+
+#services_info {
+  margin: auto;
+  margin-top: 35px;
+  height: 195px;
+  text-align: center;
+}
+
+#services_text {
+  width: 70%;
+  margin: auto;
+}
+
+.services_blurb {
+  float: left;
+  width: 300px;
+  text-align: center;
+  font-size: 13px;
+  line-height: 19px;
+}
+
+#bottom_wrapper {
+  width: 100%;
+  background: #fff;
+  bottom: 0;
+  color: #000;
+  height: 50px;
+  font-size: 16px;
+}
+
+#bottom {
+  width: 978px;
+  margin: auto;
+  margin-top: 30px;
+  text-align: center;
+  line-height: 20px;
+}
+
+.table {
+  border-collapse: collapse;
+  margin: 80px 0 50px 0;
+  font-size: 1.2em;
+  min-width: 1000px;
+  left: 3%;
+  right: 5%;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  font-family: "Montserrat";
+  font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+thead {
+  background-color: #335386;
+  color: #ffffff;
+  text-align: center;
+  font-weight: bold;
+}
+
+th {
+  padding: 12px 15px;
+  margin: 20px;
+}
+
+td {
+  background-color: #b29940;
+  padding: 12px 15px;
+  margin: 12px;
+}
+
+tr {
+  border-bottom: 2px solid #ddd;
+}
+
+.search-bar {
+  margin: 80px auto 80px auto;
+  /*width: 40%;*/
+}
+#UniGuide {
+  margin-top: 40px;
+  font-size: 4rem;
+}
+
+.card-wrap {
+display: flex;
+margin: auto;
+justify-content: center;
+}
+
+.uni-card {
+  margin: 2rem;
+  padding: 10px;
+  background-color: #282828!important;
+  width: 25rem;
+
+}
+
+.uni-card-body{
+  background-color: #282828;
+
+}
+
+html,
+body,
+.intro {
+  height: 100%;
+}
+
+.mask-custom {
+  background: rgba(24, 24, 16, .2);
+  border-radius: 2em;
+  backdrop-filter: blur(15px);
+  border: 2px solid rgba(255, 255, 255, 0.05);
+  background-clip: padding-box;
+  box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03);
+}
+
+.content-info__curve {
+  position: absolute;
+  bottom: -2px;
+  width: 100vw;
+  color: #E37151;
+  z-index: -1;
+  top: 120px;
+  transform: translateY(-25%);
+}
