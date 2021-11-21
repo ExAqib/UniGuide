@@ -81,7 +81,7 @@ h4 {
 }
 
 #section1 {
-  background: #1c1c1c;
+  /*background: #1c1c1c;*/
   position: relative;
   width: 100%;
   display: block;
@@ -272,19 +272,19 @@ tr {
   font-size: 4rem;
 }
 
-@media (max-width:425px){
+@media (max-width: 425px) {
   #UniGuide {
     margin-top: 30px;
     font-size: calc(1vw + 2.5rem);
   }
 
-.search-body{
-  padding: 0.5;
-}
-.uni-card-body {
-  background-color: #282828;
-  padding: 7px;
-}
+  .search-body {
+    padding: 0.5;
+  }
+  .uni-card-body {
+    background-color: #282828;
+    padding: 7px;
+  }
 }
 
 .card-wrap {
@@ -326,4 +326,8 @@ body,
   z-index: -1;
   top: 120px;
   transform: translateY(-25%);
+}
+
+#main {
+  background-image: url(https://mdbootstrap.com/img/Photos/new-templates/search-box/img2.jpg);
 }
