@@ -272,6 +272,21 @@ tr {
   font-size: 4rem;
 }
 
+@media (max-width:425px){
+  #UniGuide {
+    margin-top: 30px;
+    font-size: calc(1vw + 2rem);
+  }
+
+.search-body{
+  padding: 0;
+}
+.uni-card-body {
+  background-color: #282828;
+  padding: 7px;
+}
+}
+
 .card-wrap {
   display: flex;
   margin: 0;
