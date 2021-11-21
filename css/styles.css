@@ -275,7 +275,7 @@ tr {
 @media (max-width:425px){
   #UniGuide {
     margin-top: 30px;
-    font-size: calc(1vw + 2rem);
+    font-size: calc(1vw + 2.5rem);
   }
 
 .search-body{
