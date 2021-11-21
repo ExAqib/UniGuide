@@ -81,7 +81,7 @@ h4 {
 }
 
 #section1 {
-  background: #1C1C1C;
+  background: #1c1c1c;
   position: relative;
   width: 100%;
   display: block;
@@ -273,21 +273,19 @@ tr {
 }
 
 .card-wrap {
-display: flex;
-margin: auto;
-justify-content: center;
+  display: flex;
+  margin: 0;
+  justify-content: center;
 }
 
 .uni-card {
-  margin: 2rem;
+  margin: 1rem;
   padding: 10px;
-  background-color: #282828!important;
-
+  background-color: #282828 !important;
 }
 
-.uni-card-body{
+.uni-card-body {
   background-color: #282828;
-
 }
 
 html,
@@ -297,7 +295,7 @@ body,
 }
 
 .mask-custom {
-  background: rgba(24, 24, 16, .2);
+  background: rgba(24, 24, 16, 0.2);
   border-radius: 2em;
   backdrop-filter: blur(15px);
   border: 2px solid rgba(255, 255, 255, 0.05);
@@ -309,7 +307,7 @@ body,
   position: absolute;
   bottom: -2px;
   width: 100vw;
-  color: #E37151;
+  color: #e37151;
   z-index: -1;
   top: 120px;
   transform: translateY(-25%);
