@@ -86,7 +86,7 @@ h4 {
   width: 100%;
   display: block;
   overflow: hidden;
-  padding-bottom: 5%;
+  padding-bottom: 50px;
 }
 
 #section2 {
@@ -96,7 +96,7 @@ h4 {
   display: block;
   overflow: hidden;
   padding-bottom: 100px;
-  padding-top: 100px;
+  padding-top: 50px;
 }
 
 #section3 {
