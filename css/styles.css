@@ -210,9 +210,9 @@ h4 {
 
 #bottom_wrapper {
   width: 100%;
-  background: #fff;
+  /*background: #fff;*/
   bottom: 0;
-  color: #000;
+  color: #fff;
   height: 50px;
   font-size: 16px;
 }
