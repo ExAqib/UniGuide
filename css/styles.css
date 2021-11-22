@@ -90,7 +90,7 @@ h4 {
 }
 
 #section2 {
-  background: #58b792;
+  /*background: #58b792;*/
   position: relative;
   width: 100%;
   display: block;
@@ -329,5 +329,5 @@ body,
 }
 
 #main {
-  background-image: url(https://mdbootstrap.com/img/Photos/new-templates/search-box/img2.jpg);
+  background-image: url(https://images8.alphacoders.com/108/thumb-1920-1085742.jpg);
 }
