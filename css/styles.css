@@ -218,7 +218,6 @@ h4 {
 }
 
 #bottom {
-  width: 978px;
   margin: auto;
   margin-top: 30px;
   text-align: center;
@@ -329,5 +328,5 @@ body,
 }
 
 #main {
-  background-image: url(https://images8.alphacoders.com/108/thumb-1920-1085742.jpg);
+  background-image: url(https://source.unsplash.com/featured/?nature,water);
 }
