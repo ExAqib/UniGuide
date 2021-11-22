@@ -281,7 +281,6 @@ tr {
     padding: 0.5;
   }
   .uni-card-body {
-    background-color: #282828;
     padding: 7px;
   }
 }
@@ -295,11 +294,11 @@ tr {
 .uni-card {
   margin: 1rem;
   padding: 10px;
-  background-color: #282828 !important;
+  /*background-color: #282828 !important;*/
 }
 
 .uni-card-body {
-  background-color: #282828;
+  /*background-color: #282828;*/
 }
 
 html,
