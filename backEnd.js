@@ -98,7 +98,7 @@ window.addEventListener("DOMContentLoaded", () => {
     div2.classList.add("col");
 
     var div3 = document.createElement("div");
-    div3.className = "card uni-card text-white mask-custom";
+    div3.className = "card uni-card text-white mask-custom h-100";
 
     var div4 = document.createElement("div");
     div4.className = "card-body uni-card-body";
