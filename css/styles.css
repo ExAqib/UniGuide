@@ -81,7 +81,7 @@ h4 {
 }
 
 #section1 {
-  /*background: #1c1c1c;*/
+  background: #1c1c1c;
   position: relative;
   width: 100%;
   display: block;
@@ -90,7 +90,7 @@ h4 {
 }
 
 #section2 {
-  /*background: #58b792;*/
+  background: #58b792;
   position: relative;
   width: 100%;
   display: block;
@@ -294,11 +294,11 @@ tr {
 .uni-card {
   margin: 1rem;
   padding: 10px;
-  /*background-color: #282828 !important;*/
+  background-color: #282828 !important;
 }
 
 .uni-card-body {
-  /*background-color: #282828;*/
+  background-color: #282828;
 }
 
 html,
@@ -327,5 +327,5 @@ body,
 }
 
 #main {
-  background-image: url(https://source.unsplash.com/featured/?nature,water);
+  /*background-image: url(https://source.unsplash.com/featured/?nature,water);*/
 }
