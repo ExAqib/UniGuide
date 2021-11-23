@@ -130,78 +130,24 @@
             row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4
             g-4
           "
+          id="nextCard"
         >
           <div class="col">
             <div class="card uni-card text-white mask-custom">
               <div class="card-body uni-card-body">
-                <h5 class="card-title">Uni Name</h5>
-                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                <p class="card-text">
-                  Some quick example text to build on the Uni Name and make up
-                  the bulk of the card's content.
-                </p>
-                <a href="#" class="card-link">Card link</a>
-                <a href="#" class="card-link">Another link</a>
+                <h5 class="card-title"></h5>
+                <h6 class="card-subtitle mb-2 text-muted"></h6>
+                <p class="card-text"></p>
+                <a class="card-link" id="cardLink">Visit Official Site</a>
+                <a href="#" class="card-link">Goto Top</a>
               </div>
             </div>
           </div>
-          <div class="col">
-            <div class="card uni-card text-white mask-custom">
-              <div class="card-body uni-card-body">
-                <h5 class="card-title">Uni Name</h5>
-                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                <p class="card-text">
-                  Some quick example text to build on the Uni Name and make up
-                  the bulk of the card's content.
-                </p>
-                <a href="#" class="card-link">Card link</a>
-                <a href="#" class="card-link">Another link</a>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card uni-card text-white mask-custom">
-              <div class="card-body uni-card-body ">
-                <h5 class="card-title">Uni Name</h5>
-                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                <p class="card-text">
-                  Some quick example text to build on the Uni Name and make up
-                  the bulk of the card's content.
-                </p>
-                <a href="#" class="card-link">Card link</a>
-                <a href="#" class="card-link">Another link</a>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card uni-card text-white mask-custom">
-              <div class="card-body uni-card-body">
-                <h5 class="card-title">Uni Name</h5>
-                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                <p class="card-text">
-                  Some quick example text to build on the Uni Name and make up
-                  the bulk of the card's content.
-                </p>
-                <a href="#" class="card-link">Card link</a>
-                <a href="#" class="card-link">Another link</a>
-              </div>
-            </div>
-          </div>
-          <!-- Background Curve -->
-          <svg
-            class="content-info__curve"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 1438 134"
-          >
-            <path
-              d="M1438 1442H0V31.001S438.105 0 719 .001c280.896 0 719 31 719 31V1442z"
-              fill="currentColor"
-            ></path>
-          </svg>
         </div>
       </section>
-      <section id="bottom_wrapper" >
-        <div id="bottom" >  Copyright © 2021 Developed by Huimang Tech. All rights reserved.
+      <section id="bottom_wrapper">
+        <div id="bottom">
+          Copyright © 2021 Developed by Huimang Tech. All rights reserved.
         </div>
       </section>
     </div>
@@ -210,30 +156,7 @@
     <!-- MDB -->
     <script type="text/javascript" src="js/mdb.min.js"></script>
     <!-- Custom scripts -->
-    <script type="text/javascript">
-      const basicAutocomplete = document.querySelector("#basic");
-      const data = ["Museum", "Party", "Restaurant", "Concert", "Architecture"];
-      const dataFilter = (value) => {
-        return data.filter((item) => {
-          return item.toLowerCase().startsWith(value.toLowerCase());
-        });
-      };
-
-      new mdb.Autocomplete(basicAutocomplete, {
-        filter: dataFilter,
-      });
-
-      const locationAutocomplete = document.querySelector("#location");
-      const dataL = ["Madrid", "Rome", "Lisbon", "Paris", "London"];
-      const dataFilterL = (value) => {
-        return dataL.filter((item) => {
-          return item.toLowerCase().startsWith(value.toLowerCase());
-        });
-      };
-
-      new mdb.Autocomplete(locationAutocomplete, {
-        filter: dataFilterL,
-      });
-    </script>
+    <script type="text/javascript"></script>
+    <script src="backEnd.js"></script>
   </body>
 </html>

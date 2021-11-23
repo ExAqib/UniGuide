@@ -285,7 +285,7 @@ tr {
   }
 }
 
-.card-wrap {
+#card-wrap {
   display: flex;
   margin: 0;
   justify-content: center;
