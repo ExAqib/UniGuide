@@ -210,7 +210,7 @@ h4 {
 
 #bottom_wrapper {
   width: 100%;
-  /*background: #fff;*/
+  background: #58b792;
   bottom: 0;
   color: black;
   height: 50px;
@@ -218,8 +218,9 @@ h4 {
 }
 
 #bottom {
+  background: #58b792;
   margin: auto;
-  margin-top: 30px;
+  /*margin-top: 30px;*/
   text-align: center;
   line-height: 20px;
 }
