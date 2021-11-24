@@ -95,43 +95,39 @@ window.addEventListener("DOMContentLoaded", () => {
 
   function createCard(name, country, domain, url) {
     var div2 = document.createElement("div");
-    div2.classList.add("col");
-
     var div3 = document.createElement("div");
-    div3.className = "card uni-card text-white mask-custom h-100";
-
     var div4 = document.createElement("div");
-    div4.className = "card-body uni-card-body";
-
     var h5 = document.createElement("h5");
-    h5.className = "card-title";
-    h5.appendChild(document.createTextNode(name));
-
     var h6 = document.createElement("h6");
+    var p = document.createElement("p");
+    var a = document.createElement("a");
+    var a2 = document.createElement("a");
+
+    div2.classList.add("col");
+    div3.className = "card uni-card text-white mask-customس";
+    div4.className = "card-body uni-card-body";
+    h5.className = "card-title";
     h6.className = "card-subtitle mb-2 text-muted";
+    p.className = "card-text";
+    a.className = "card-link";
+    a2.className = "card-link";
+
+    h5.appendChild(document.createTextNode(name));
+    
     h6.appendChild(document.createTextNode(country));
 
-    var p = document.createElement("p");
-    p.className = "card-text";
-    var description;
-    description = "Domain: " + domain;
+    var description = "Domain: " + domain;
     //p.appendChild(document.createElement("br"));
     p.appendChild(document.createTextNode(description));
 
-    var a = document.createElement("a");
-    a.className = "card-link";
     a.appendChild(document.createTextNode("Visit Official Site"));
     a.setAttribute("href", url);
 
-    var a2 = document.createElement("a");
-    a2.className = "card-link";
     a2.appendChild(document.createTextNode("Goto Top"));
     a2.setAttribute("href", "#");
 
     div2.appendChild(div3);
-
     div3.appendChild(div4);
-
     div4.appendChild(h5);
     div4.appendChild(h6);
     div4.appendChild(p);
